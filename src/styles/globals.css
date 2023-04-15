@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-pagination .ant-pagination-item-active {
+  border: none; 
+}
+
+.my-pagination:hover{
+  color: #BE9F56;
+}
